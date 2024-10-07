@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg1{
+    background-color: #069b40;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100wh;
+   justify-content: space-around;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   display: grid;
+   place-items: center;
+
+}
+.bg2{
+    background-color: #069b40;
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    width: 100%;
+    justify-content: space-around;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   display: grid;
+   place-items: center;
+   
+
+}
+.shopper{
+    position: fixed;
+    top: 23%;
+    left: 61%;
+}
+.white{
+    position: absolute;
+    top: 10%;
+    left: 40vw;
+}
+.con{
+    width: 450px;
+    height: 80vh;
+    background-color: white;
+    border-radius: 20px;
+    z-index: 2;
+    position: absolute;
+    top: 25%;
+    left: 31vw;
+    border-bottom-left-radius: 0px;
+   
+}
+.txt1{
+    font-family: Cardify, system-ui, Helvetica, Arial;
+    color: #069b40;
+    margin-left: 35px;
+    font-size: 30px;
+    
+    margin-top: 30px;
+}
+.txt2{
+    font-family: Cardify, system-ui, Helvetica, Arial;
+    
+    margin-left: 35px;
+    font-size: 14px;
+    
+    margin-top: 0px;
+}
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #069b40;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #666;
+}
+.btn1{
+    width: 370px;
+    height: 50px;
+    margin-left: 35px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: Cardify, system-ui, Helvetica, Arial;
+    font-weight: 700;
+    background-color: transparent;
+}
+.btn1:hover{
+    background-color: #f2f8f3;
+    transition: background-color all ease 900ms;
+    
+}
+.txt3{
+    color: #4a5568;
+    font-family: Cardify, system-ui, Helvetica, Arial;
+    margin-top: 25px;
+    margin-left: 35px;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+.pl1{
+    width: 370px;
+    height: 50px;
+    margin-left: 35px ;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #edf2f7;
+    outline: none;
+
+}
+.txt4{
+    color: #4a5568;
+    font-family: Cardify, system-ui, Helvetica, Arial;
+    margin-top: 25px;
+    margin-left: 35px;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+.pl2{
+    width: 370px;
+    height: 50px;
+    margin-left: 35px ;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #edf2f7;
+    outline: none;
+
+}
+.btn{
+    font-family: Cardify, system-ui, Helvetica, Arial;
+    font-size: 15px;
+    width: 370px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 35px ;
+    border-radius: 10px;
+    border: none;
+    background-color: #069b40;
+    border-bottom-left-radius: 0px;
+    color: white;
+      
+
+}
+.txt5{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 110%;
+    left: 40%;
+    font-family: Cardify, system-ui, Helvetica, Arial;
+}
+.txt6{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 115%;
+    left: 44%;
+    font-family: Cardify, system-ui, Helvetica, Arial;
+}
+u{
+    text-decoration: none;
+    color: white;
+}
+u:hover{
+    text-decoration: underline;
+    transition:   text-decoration ease-in 5s;
+}
+.img1{
+    border-radius: 5px;
+    
+    position: absolute;
+    top: 125%;
+    left: 35%;
+}
+.img2{
+    border-radius: 5px;
+    
+    position: absolute;
+    top: 125%;
+    left: 50%;
+}
+@media screen and (max-width: 1200px)  {
+    .shopper{
+        display: none;
+        
+
+        }
+       .bg1{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+       } 
+       .bg2{
+        flex-direction: column;
+       }
+       .con{
+        position: absolute;
+    top: 25%;
+    left: 31vw;
+    margin: 0 auto;
+       }
+}
+@media screen and (max-width: 900px) {
+    .shopper{
+        display: none;
+        
+
+        }
+       .bg1{
+        flex-direction: column;
+       } 
+       .bg2{
+        flex-direction: column;
+       }
+       .con{
+        position: absolute;
+    top: 25%;
+    left: 31vw;
+       }
+}
+    @media screen and (max-width: 650px) {
+        .shopper{
+            display: none;
+            
+    
+            }
+           .bg1{
+            flex-direction: column;
+           } 
+           .bg2{
+            flex-direction: column;
+           }
+           .con{
+            position: absolute;
+        top: 25%;
+        left: 31vw;
+           }
+    }
+    @media screen and (max-width: 400px){
+        .shopper{
+            display: none;
+            
+    
+            }
+           .bg1{
+            flex-direction: column;
+           } 
+           .bg2{
+            flex-direction: column;
+           }
+           .con{
+            position: absolute;
+        top: 25%;
+        left: 31vw;
+           }
+    }
+    @media only screen and (max-width: 575.98px){
+        .shopper{
+            display: none;
+            
+    
+            }
+           .bg1{
+            flex-direction: column;
+           } 
+           .bg2{
+            flex-direction: column;
+           }
+           .con{
+            position: absolute;
+        top: 25%;
+        left: 31vw;
+           }
+    }
+@media only screen and (min-width: 576px) and (max-width: 767.98px){
+    .shopper{
+        display: none;
+        
+
+        }
+       .bg1{
+        flex-direction: column;
+       } 
+       .bg2{
+        flex-direction: column;
+       }
+       .con{
+        position: absolute;
+    top: 25%;
+    left: 31vw;
+       }
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+    .shopper{
+        display: none;
+        
+
+        }
+       .bg1{
+        flex-direction: column;
+       } 
+       .bg2{
+        flex-direction: column;
+       }
+       .con{
+        position: absolute;
+    top: 25%;
+    left: 31vw;
+       }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199.98px){
+    .shopper{
+        display: none;
+        
+
+        }
+       .bg1{
+        flex-direction: column;
+       } 
+       .bg2{
+        flex-direction: column;
+       }
+       .con{
+        position: absolute;
+    top: 25%;
+    left: 31vw;
+       }
+       
+}
